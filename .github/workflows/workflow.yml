@@ -28,13 +28,13 @@ jobs:
       - run: npm run build --if-present
       - run: npm test
       - name: Deploy
-          run: |
-            git config --global user.name $hstrada
-            git config --global user.email $h.strada@hotmail.com
-            git remote set-url origin https://${github_token}@github.com/${repository}
-            npm run deploy
-          env:
-            user_name: 'github-actions[bot]'
-            user_email: 'github-actions[bot]@users.noreply.github.com'
-            github_token: ${{ secrets.GH_PAGES_ACTIONS }}
-            repository: ${{ github.repository }}
+        run: |
+          git config --global user.name $hstrada
+          git config --global user.email $h.strada@hotmail.com
+          git remote set-url origin https://${github_token}@github.com/${repository}
+          npm run deploy
+        env:
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          github_token: ${{ secrets.GH_PAGES_ACTIONS }}
+          repository: ${{ github.repository }}
