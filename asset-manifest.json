@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tdc-danger-js/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/tdc-danger-js/static/js/main.ae9b1bb5.chunk.js",
+    "main.js.map": "/tdc-danger-js/static/js/main.ae9b1bb5.chunk.js.map",
+    "runtime-main.js": "/tdc-danger-js/static/js/runtime-main.f37d9127.js",
+    "runtime-main.js.map": "/tdc-danger-js/static/js/runtime-main.f37d9127.js.map",
+    "static/js/2.2652627c.chunk.js": "/tdc-danger-js/static/js/2.2652627c.chunk.js",
+    "static/js/2.2652627c.chunk.js.map": "/tdc-danger-js/static/js/2.2652627c.chunk.js.map",
+    "static/js/3.4ed74b5d.chunk.js": "/tdc-danger-js/static/js/3.4ed74b5d.chunk.js",
+    "static/js/3.4ed74b5d.chunk.js.map": "/tdc-danger-js/static/js/3.4ed74b5d.chunk.js.map",
+    "index.html": "/tdc-danger-js/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/tdc-danger-js/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.2652627c.chunk.js.LICENSE.txt": "/tdc-danger-js/static/js/2.2652627c.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/tdc-danger-js/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f37d9127.js",
+    "static/js/2.2652627c.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.ae9b1bb5.chunk.js"
+  ]
+}
