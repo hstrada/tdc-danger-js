@@ -6,6 +6,18 @@
 
 > yarn add danger -D
 
+<img src=".github/readme/dangerjs-dev.png" />
+
 ## Criar arquivo dangerfile.(ts|js)
 
-<img src="github/readme/criar-arquivo-dangerfile.png" />
+Criando o arquivo
+
+<img src=".github/readme/criar-arquivo-dangerfile.png" />
+
+Exemplo de código
+
+<img src=".github/readme/dangerfile-exemplo.png" />
+
+## Adicionando na sua pipeline
+
+<img src=".github/readme/pipeline-dangerjs.png" />
