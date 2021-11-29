@@ -22,7 +22,9 @@ yarn add danger -D
 
 ![exemplo dangerfile](https://github.com/hstrada/tdc-danger-js/blob/master/.github/readme/dangerfile-exemplo.png?raw=true)
 
-## Criando uma chave 
+## Criando uma chave
+
+![criando a chave](https://github.com/hstrada/tdc-danger-js/blob/master/.github/readme/action-secret-key.png?raw=true)
 
 ## Adicionando na sua pipeline
 
