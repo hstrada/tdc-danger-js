@@ -6,7 +6,7 @@
 
 > yarn add danger -D
 
-<img src=".github/readme/dangerjs-dev.png" />
+![dangerjs-dev](.github/readme/dangerjs-dev.png)
 
 ## Criar arquivo dangerfile.(ts|js)
 
