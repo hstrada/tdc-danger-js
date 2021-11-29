@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
-import './App.css';
 import remarkGfm from 'remark-gfm';
 import danger from './step-by-step.md';
+import './App.css';
 
-function App() {
+const App = () => {
   const [text, setText] = useState('');
 
   useEffect(() => {
@@ -17,9 +17,10 @@ function App() {
 
   return (
     <div className="App">
+      step-by-step
       <ReactMarkdown children={text} remarkPlugins={[remarkGfm]} />
     </div>
   );
-}
+};
 
 export default App;
