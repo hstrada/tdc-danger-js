@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "mdx-deck src/deck.mdx",
-    "build": "mdx-deck build src/deck.mdx"
+    "build": "mdx-deck build src/deck.mdx",
+    "danger": "npx danger ci",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@mdx-deck/themes": "^4.1.0",
