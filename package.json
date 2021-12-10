@@ -7,7 +7,7 @@
     "start": "mdx-deck src/deck.mdx",
     "build": "mdx-deck build src/deck.mdx",
     "danger": "npx danger ci",
-    "deploy": "yarn build --no-html src/deck.mdx && gh-pages -d public"
+    "deploy": "yarn build src/deck.mdx --no-html && gh-pages -d public"
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",
