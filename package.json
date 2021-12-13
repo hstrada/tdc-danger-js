@@ -4,16 +4,16 @@
   "homepage": "https://hstrada.github.io/tdc-danger-js",
   "scripts": {
     "start": "mdx-deck src/deck.mdx",
-    "build": "mdx-deck build src/deck.mdx",
     "danger": "npx danger ci",
-    "deploy": "yarn build src/deck.mdx --no-html && gh-pages -d public"
-  },
-  "dependencies": {
-    "mdx-deck": "4.1.1"
+    "build": "gatsby build --prefix-paths && mv public build",
+    "deploy": "npx gh-pages --dist ./build --branch gh-pages"
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",
-    "@mdx-deck/themes": "^4.1.0",
+    "mdx-deck": "^4.1.1",
+    "gatsby": "^2.17.15",
+    "gatsby-plugin-compile-es6-packages": "^2.1.0",
+    "gatsby-theme-mdx-deck": "4.1.0",
     "danger": "^10.7.1"
   }
 }
